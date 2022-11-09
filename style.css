@@ -1,0 +1,175 @@
+/* Type your code here */
+body {
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+  }
+  #logo {
+    /* position: relative; */
+    /* right: 0px; */
+    /* width: 10px; */
+    position: absolute;
+    right: 3%;
+    top: 1%;
+  }
+  .title {
+    font-size: 48px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 0px 5px 8px black;
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: gray;
+    /* margin: 0px; */
+  }
+  #head {
+    display: flex;
+    background-color: rgb(219, 48, 42);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 80%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'nunito sans';
+    height: 50px;
+    align-items: center;
+    border: 2px solid gray;
+  }
+  .body {
+    display: flex;
+    max-width: 80%;
+    flex: 1;
+    padding-left: 5px;
+    background-color: white;
+    padding-right: 5px;
+    border: 2px solid gray;
+    align-items: center;
+    
+  }
+  .first-div {
+    display: flex;
+    flex: 1;
+    max-width: 70%;
+    
+  }
+  .second-div {
+    display: flex;
+    flex: 1;
+    max-width: 30%;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+  .name{
+    display: flex;
+    flex: 1;
+    max-width: 20%;
+  }
+  .feed{
+    display: flex;
+    flex: 1;
+    max-width: 50%;
+  }
+  .scores{
+    display: flex;
+    flex: 1;
+    max-width: 30%;
+    justify-content: space-between;
+  }
+  .total{
+    display: flex;
+    flex: 1;
+    max-width: 80%;
+  }
+  .not{
+    display: flex;
+    flex: 1;
+    max-width: 20%;
+  }
+ #sehwag{
+  position: absolute;
+  top: 46%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ .show
+ {
+  position: absolute;
+  top: 46%;
+  visibility: hidden;
+ }
+ #close,#close2,
+  #close3,#close4, #close5,#close6,
+  #close7,#close8,#close9{
+  background-color: rgb(118, 114, 190);
+  border: none;
+  border-radius: 5%;
+  position: relative;
+  right: 50%;
+  color: white;
+ }
+ #sachin{
+  position: absolute;
+  top: 52%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #gambhir{
+  position: absolute;
+  top: 59%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #virat{
+  position: absolute;
+  top: 66%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #dhoni{
+  position: absolute;
+  top: 74%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #yuvraj{
+  position: absolute;
+  top: 81%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #raina{
+  position: absolute;
+  bottom: 0%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #bhaji{
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ #zaheer{
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 0px;
+ }
+ 
